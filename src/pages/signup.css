@@ -1,0 +1,10 @@
+.formWrapper {
+  height: 100vh;
+  padding-top: calc(20vh - 200px);
+
+}
+  .submitBtn {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+  

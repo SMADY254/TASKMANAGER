@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.highlight1,
+.highlight2,
+.highlight3,
+.highlight4,
+.highlight5 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.highlight1 + ul,
+.highlight2 + ul,
+.highlight3 + ul,
+.highlight4 + p,
+.highlight5 + p {
+  margin-top: 10px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+li {
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  li {
+    width: 100%;
+  }
+}

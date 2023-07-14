@@ -1,0 +1,27 @@
+.sidenav{
+    width: 19%;
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    border-right: 1px solid #ccc;
+
+}
+
+.sidenav_wrapper {
+    padding: 0.5rem, 0.5 rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.icon{
+    color: rgb(86, 193, 4);
+    
+
+}
+
+.sidenav_wrapper:hover {
+    /* background-color: rgb(123, 153, 100); */
+    color: white;
+}
+
+
+
